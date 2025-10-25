@@ -1,12 +1,12 @@
-import { createFileRoute, useRouter } from "@tanstack/react-router";
-import { KanbanBoard } from "@/components/kanban-board";
 import { DraggableBoxesDemo } from "@/components/draggable-boxes";
-import { SortableListDemo } from "@/components/sortable-list";
+import { KanbanBoard } from "@/components/kanban-board";
 import { ModeToggle } from "@/components/mode-toggle";
+import { SortableListDemo } from "@/components/sortable-list";
+import { DragAndDropProvider } from "@/components/ui";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { DragAndDropProvider } from "@/components/ui";
-import { ArrowRight, Star, Zap, Code, Palette, Smartphone } from "lucide-react";
+import { createFileRoute } from "@tanstack/react-router";
+import { ArrowRight, Code, Palette, Smartphone, Star, Zap } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   component: App,
