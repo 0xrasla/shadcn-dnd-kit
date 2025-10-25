@@ -22,7 +22,7 @@ function App() {
               <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
                 <Zap className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="font-bold text-xl">shadcn-drag</span>
+              <span className="font-bold text-xl">shadcn-dnd-kit</span>
             </div>
             <div className="flex items-center space-x-4">
               <a
@@ -79,7 +79,9 @@ function App() {
       <section className="py-16 px-4 bg-secondary/20">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Why Choose shadcn-drag?</h2>
+            <h2 className="text-3xl font-bold mb-4">
+              Why Choose shadcn-dnd-kit?
+            </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Built with performance, accessibility and developer experience in
               mind.
@@ -348,7 +350,7 @@ function App() {
             <div className="w-6 h-6 bg-primary rounded flex items-center justify-center">
               <Zap className="w-3 h-3 text-primary-foreground" />
             </div>
-            <span className="font-semibold">shadcn-drag</span>
+            <span className="font-semibold">shadcn-dnd-kit</span>
           </div>
           <p className="text-sm text-muted-foreground">
             Built with React, TypeScript, and Tailwind CSS

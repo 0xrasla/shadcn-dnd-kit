@@ -1,4 +1,4 @@
-# Shadcn Drag & Drop
+# shadcn-dnd-kit
 
 A custom drag-and-drop component library built on top of `react-dnd` with shadcn/ui styling. These components provide a clean, accessible, and highly customizable way to implement drag-and-drop functionality in your React applications.
 

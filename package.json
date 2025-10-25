@@ -1,7 +1,27 @@
 {
-  "name": "shadcn-drag",
+  "name": "shadcn-dnd-kit",
+  "version": "1.0.0",
+  "description": "A comprehensive drag-and-drop component library built on top of react-dnd with seamless shadcn/ui integration. Beautiful, accessible, and incredibly easy to use.",
   "private": true,
   "type": "module",
+  "keywords": [
+    "react",
+    "drag-and-drop",
+    "dnd",
+    "shadcn-ui",
+    "ui-components",
+    "typescript",
+    "kanban",
+    "sortable",
+    "react-dnd"
+  ],
+  "author": "shadcn-dnd-kit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xrasla/shadcn-dnd-kit.git"
+  },
+  "homepage": "https://shadcn-dnd-kit.dev",
   "scripts": {
     "dev": "vite --port 3000",
     "build": "vite build && tsc",
