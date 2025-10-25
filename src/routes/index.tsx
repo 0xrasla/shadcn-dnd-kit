@@ -13,8 +13,6 @@ export const Route = createFileRoute("/")({
 });
 
 function App() {
-  const router = useRouter();
-
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b">
