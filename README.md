@@ -21,6 +21,40 @@ bun add react-dnd react-dnd-html5-backend @types/react-dnd
 
 The components are designed to work with shadcn/ui, so make sure you have it set up in your project.
 
+## Files
+
+All the components you need to add drag and drop to your project:
+
+### Core Components
+
+| Component           | Description                                      | View Code                                                                                         |
+| ------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| `draggable.tsx`     | The main draggable wrapper component             | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/components/ui/draggable.tsx)     |
+| `droppable.tsx`     | Drop zone component that accepts draggable items | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/components/ui/droppable.tsx)     |
+| `drag-and-drop.tsx` | React DnD provider wrapper for your app          | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/components/ui/drag-and-drop.tsx) |
+
+### Demo Components
+
+| Component             | Description                          | View Code                                                                                        |
+| --------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `kanban-board.tsx`    | Complete kanban board demo component | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/components/kanban-board.tsx)    |
+| `draggable-boxes.tsx` | Simple drag and drop boxes demo      | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/components/draggable-boxes.tsx) |
+| `sortable-list.tsx`   | Reorderable list items demo          | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/components/sortable-list.tsx)   |
+
+### Theme Components
+
+| Component            | Description                       | View Code                                                                                          |
+| -------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `mode-toggle.tsx`    | Light/dark theme toggle component | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/components/ui/mode-toggle.tsx)    |
+| `theme-provider.tsx` | Next.js themes provider wrapper   | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/components/ui/theme-provider.tsx) |
+
+### Key Files
+
+| File        | Path                    | Description                  |
+| ----------- | ----------------------- | ---------------------------- | ----------------------------------------------------------------------------------- |
+| Homepage    | `src/routes/index.tsx`  | Main landing page with demos | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/routes/index.tsx)  |
+| Root Layout | `src/routes/__root.tsx` | App root with theme provider | [View](https://github.com/0xrasla/shadcn-dnd-kit/blob/master/src/routes/__root.tsx) |
+
 ## Quick Start
 
 First, wrap your application with the `DragAndDropProvider`:
@@ -324,4 +358,5 @@ Supported browsers match react-dnd's requirements:
 ## License
 
 This project is part of your shadcn/ui setup and follows the same licensing terms.
+
 # shadcn-dnd-kit
